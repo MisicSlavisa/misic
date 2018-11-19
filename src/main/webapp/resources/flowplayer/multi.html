@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<title>Flowplayer Tutorial - Single Player</title>
+<script src="script/flowplayer-3.1.4.min.js" type="text/javascript"></script>
+<style>
+.player {
+    display: block;
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+}
+</style>
+</head>
+<body>
+    <h2>Flowplayer Tutorial -Multiple Player</h2>
+    
+    <a class="player" href="video/video01.flv" style="display:block; width:400px; height:300px"></a>
+    <a class="player" href="video/video02.flv" style="display:block; width:400px; height:300px" ></a>
+    
+    <script language="javascript">
+        flowplayer("a.player", "swf/flowplayer-3.1.5.swf");
+    </script>
+</body>
+</html>
