@@ -14,7 +14,7 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <tomcat.version>8.5.28</tomcat.version>
+        <tomcat.version>8.5.29</tomcat.version>
         <spring.version>5.0.4.RELEASE</spring.version>
         <spring-data-jpa.version>2.0.5.RELEASE</spring-data-jpa.version>
         <jackson-json.version>2.9.5</jackson-json.version>
@@ -401,7 +401,7 @@
                                         <artifactItem>
                                             <groupId>com.github.jsimone</groupId>
                                             <artifactId>webapp-runner</artifactId>
-                                            <version>8.5.28.0</version>
+                                            <version>8.5.29.0</version>
                                             <destFileName>webapp-runner.jar</destFileName>
                                         </artifactItem>
                                     </artifactItems>
