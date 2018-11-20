@@ -383,6 +383,9 @@
         </profile>
         <profile>
             <id>heroku</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <!--https://devcenter.heroku.com/articles/java-webapp-runner            -->
             <build>
                 <plugins>
