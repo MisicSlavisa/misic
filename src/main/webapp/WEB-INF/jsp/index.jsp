@@ -278,7 +278,7 @@
                             }
                         })
                 }
-                $("#player").refresh();
+                /*$("#player").refresh();*/
             })
         </script>
     </div>
