@@ -238,17 +238,6 @@
                 <p>Third text</p>
             </div>
         </div>
-        <div class="carousel-item">
-            <!--Mask color-->
-            <div class="view">
-                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(119).jpg" alt="Third slide">
-                <div class="mask rgba-black-light"></div>
-            </div>
-            <div class="carousel-caption">
-                <h3 class="h3-responsive">This is the fourth title</h3>
-                <p>Fourth text</p>
-            </div>
-        </div>
     </div>
     <!--/.Slides-->
     <!--Controls-->
