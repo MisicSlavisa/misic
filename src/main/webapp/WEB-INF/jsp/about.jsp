@@ -199,8 +199,8 @@
     <!--Indicators-->
     <ol class="carousel-indicators">
         <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-2" data-slide-to="1"></li>
-        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        <%--<li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>--%>
     </ol>
     <!--/.Indicators-->
     <!--Slides-->
@@ -211,11 +211,11 @@
                 <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
-                <h3 class="h3-responsive">My wife!</h3>
+                <h3 class="h3-responsive" style="color: #f2a811">My wife!</h3>
                 <p>I love her so much!</p>
             </div>
         </div>
-        <div class="carousel-item">
+<%--        <div class="carousel-item">
             <!--Mask color-->
             <div class="view">
                 <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(115).jpg" alt="Second slide">
@@ -236,7 +236,7 @@
                 <h3 class="h3-responsive">This is the third title</h3>
                 <p>Third text</p>
             </div>
-        </div>
+        </div>--%>
     </div>
     <!--/.Slides-->
     <!--Controls-->
