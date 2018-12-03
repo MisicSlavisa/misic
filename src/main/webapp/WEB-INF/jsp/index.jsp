@@ -99,7 +99,7 @@
             </div>
         </div>
 
-        <script language="JavaScript" defer>
+        <script language="JavaScript">
             $(function () {
                 var el = $("#cv");
                 var el1 = $("#cv1");
