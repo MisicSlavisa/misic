@@ -99,188 +99,7 @@
             </div>
         </div>
 
-        <script language="JavaScript">
-            $(function () {
-                var el = $("#cv");
-                var el1 = $("#cv1");
-                var el2 = $("#cv2");
-                var el3 = $("#cv3");
-                var el4 = $("#cv4");
-                var el5 = $("#cv5");
 
-                if ($("#pr").text() === "ru"){
-                    flowplayer().on("cuepoint",
-                        function (e, api, cuepoint) {
-                            switch (cuepoint.time) {
-                                case 7.6:
-                                    el1.css({
-                                        'font-size': '30px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-                                    break;
-                                case 8.5:
-                                    el1.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-                                    break;
-                                case 8.6:
-                                    el2.css({
-                                        'font-size': '16px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-
-                                    el3.css({
-                                        'font-size': '16px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-
-                                    el4.css({
-                                        'font-size': '16px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-
-                                    el5.css({
-                                        'font-size': '16px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-                                    break;
-                                case 9.7:
-                                    el2.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-
-                                    el3.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-
-                                    el4.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-
-                                    el5.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-                                    break;
-                                case 10.5:
-                                    el.css({
-                                        'font-size': '26px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-                                    break;
-                                case 12.8:
-                                    el.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-                                    break;
-                            }
-                        })
-                }
-                else {
-                    flowplayer().on("cuepoint",
-                        function (e, api, cuepoint) {
-                            switch (cuepoint.time) {
-                                case 8.2:
-                                    el1.css({
-                                        'font-size': '30px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-                                    break;
-                                case 9.1:
-                                    el1.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-                                    break;
-                                case 9.3:
-                                    el2.css({
-                                        'font-size': '16px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-
-                                    el3.css({
-                                        'font-size': '16px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-
-                                    el4.css({
-                                        'font-size': '16px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-
-                                    el5.css({
-                                        'font-size': '16px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-                                    break;
-                                case 10.2:
-                                    el2.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-
-                                    el3.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-
-                                    el4.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-
-                                    el5.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-                                    break;
-                                case 12.2:
-                                    el.css({
-                                        'font-size': '26px',
-                                        'font-weight': 'bold',
-                                        'color': 'red'
-                                    });
-                                    break;
-                                case 13.6:
-                                    el.css({
-                                        'font-size': '',
-                                        'font-weight': '',
-                                        'color': ''
-                                    });
-                                    break;
-                            }
-                        })
-                }
-                $("#player").refresh();
-            })
-        </script>
     </div>
 </section>
 <!-- End banner Area -->
@@ -378,4 +197,187 @@
 <jsp:include page="fragments/testimonials.jsp"/>
 
 <jsp:include page="fragments/footer.jsp"/>
+<script language="JavaScript">
+    $(function () {
+        var el = $("#cv");
+        var el1 = $("#cv1");
+        var el2 = $("#cv2");
+        var el3 = $("#cv3");
+        var el4 = $("#cv4");
+        var el5 = $("#cv5");
+
+        if ($("#pr").text() === "ru"){
+            flowplayer().on("cuepoint",
+                function (e, api, cuepoint) {
+                    switch (cuepoint.time) {
+                        case 7.6:
+                            el1.css({
+                                'font-size': '30px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+                            break;
+                        case 8.5:
+                            el1.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+                            break;
+                        case 8.6:
+                            el2.css({
+                                'font-size': '16px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+
+                            el3.css({
+                                'font-size': '16px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+
+                            el4.css({
+                                'font-size': '16px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+
+                            el5.css({
+                                'font-size': '16px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+                            break;
+                        case 9.7:
+                            el2.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+
+                            el3.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+
+                            el4.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+
+                            el5.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+                            break;
+                        case 10.5:
+                            el.css({
+                                'font-size': '26px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+                            break;
+                        case 12.8:
+                            el.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+                            break;
+                    }
+                })
+        }
+        else {
+            flowplayer().on("cuepoint",
+                function (e, api, cuepoint) {
+                    switch (cuepoint.time) {
+                        case 8.2:
+                            el1.css({
+                                'font-size': '30px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+                            break;
+                        case 9.1:
+                            el1.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+                            break;
+                        case 9.3:
+                            el2.css({
+                                'font-size': '16px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+
+                            el3.css({
+                                'font-size': '16px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+
+                            el4.css({
+                                'font-size': '16px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+
+                            el5.css({
+                                'font-size': '16px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+                            break;
+                        case 10.2:
+                            el2.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+
+                            el3.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+
+                            el4.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+
+                            el5.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+                            break;
+                        case 12.2:
+                            el.css({
+                                'font-size': '26px',
+                                'font-weight': 'bold',
+                                'color': 'red'
+                            });
+                            break;
+                        case 13.6:
+                            el.css({
+                                'font-size': '',
+                                'font-weight': '',
+                                'color': ''
+                            });
+                            break;
+                    }
+                })
+        }
+        $("#player").refresh();
+    })
+</script>
+</body>
 </html>
