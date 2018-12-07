@@ -1,11 +1,10 @@
-This is a personal site project
+This is a personal site project of Misic Slavisa
 ===============================
 
 ### Java Enterprise Project
 The site is still under construction.
 
-The following tools/technologies were applied in the development of the site: 
-Maven/ Spring/ Security/ JPA(Hibernate)/ REST(Jackson)/ Bootstrap(CSS)/ jQuery + plugins.
+The following tools/technologies were applied in the development of the site:
 
 - [Maven](http://http://maven.apache.org/)
 - [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html)
