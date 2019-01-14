@@ -61,6 +61,16 @@
                             background-repeat: no-repeat; background-position: center center">
         <li>
             <div class="content">
+                <a href="http://javaops.ru/"><img class="img-fluid mx-auto d-block mb-30" src="resources/img/elements/javaops.png" alt=""></a>
+                <h4>
+                    <time><spring:message code="app.qualification4"/></time>
+                </h4>
+                <p><b><spring:message code="app.qualification4а"/></b></p>
+                <p><spring:message code="app.qualification4b"/></p>
+            </div>
+        </li>
+        <li>
+            <div class="content">
                 <a href="https://javarush.ru/"><img class="img-fluid mx-auto d-block mb-30" src="resources/img/elements/javarush.png" alt=""></a>
                 <h4>
                     <time><spring:message code="app.qualification1"/></time>
