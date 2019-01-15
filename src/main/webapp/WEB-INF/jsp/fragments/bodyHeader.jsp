@@ -11,7 +11,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>--%>
 
-        <div id="navbarNav" style="max-width: 60%; text-align: right">
+        <div id="navbarNav" style="max-width: 82%; text-align: right">
             <ul class="nav-menu">
                 <sec:authorize access="isAuthenticated()">
                     <li class="nav-item">
@@ -31,6 +31,9 @@
                 <sec:authorize access="isAnonymous()">
                     <li class="nav-item">
                         <form:form class="row" action="spring_security_check" method="post">
+                            <div style="width: 350px; padding: 7px 10px 0 3px">
+                                <strong><spring:message code="app.login1"/></strong>
+                            </div>
                             <div style="width: 200px; padding: 0 3px 0 3px">
                                 <input class="form-control" type="text" placeholder="Email" name="username">
                             </div>

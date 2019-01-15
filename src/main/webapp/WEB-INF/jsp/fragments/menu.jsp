@@ -36,7 +36,7 @@
                 <a href="${requestScope['javax.servlet.forward.request_uri']}?lang=sr"><img style="height: 15px" src="resources/img/elements/f2.jpg" alt="Srpski"></a>
             </nav>
             <nav id="login" style="margin-top: -2px">
-                <a href="/emails"><span class="fa fa-sign-in"></span></a>
+                <a href="/login"><span class="fa fa-sign-in"></span></a>
             </nav>
         </nav>
     </div>
