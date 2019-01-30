@@ -22,7 +22,7 @@
                         <ul>
                             <li class="menu-has-children"><a href="resources/doc/CVru.pdf">по-русски <img src="resources/img/elements/f1.jpg" class="flag-menu"></a>
                             <li class="menu-has-children"><a href="resources/doc/CVen.pdf">in English <img src="resources/img/elements/f3.jpg" class="flag-menu"></a>
-                            <li class="menu-has-children"><a href="resources/doc/CVde.pdf">auf Deutsch <img src="resources/img/elements/f4.jpg" class="flag-menu"></a>
+                            <li class="menu-has-children"><a href="resources/doc/CVde.pdf">in Deutsch <img src="resources/img/elements/f4.jpg" class="flag-menu"></a>
                             <li class="menu-has-children"><a href="resources/doc/CVsr.pdf">na srpskom <img src="resources/img/elements/f2.jpg" class="flag-menu"></a>
                             </li>
                         </ul>
