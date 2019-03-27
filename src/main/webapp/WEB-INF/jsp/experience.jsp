@@ -150,18 +150,26 @@
                         </tr>
                         <tr>
                             <td class="single-skill-short">
-                                <p><strong>Bootstrap</strong> 86% </p>
+                                <p><strong>Bootstrap</strong> 80% </p>
                             </td>
                             <td style="width: 160px; padding-left: 20px">
-                                <div class="skill" data-width="86"></div>
+                                <div class="skill" data-width="80"></div>
                             </td>
                         </tr>
                         <tr>
                             <td class="single-skill-short">
-                                <p><strong>JUnit</strong> 35% </p>
+                                <p><strong>AngularJS</strong> 40% </p>
                             </td>
                             <td style="width: 160px; padding-left: 20px">
-                                <div class="skill" data-width="35"></div>
+                                <div class="skill" data-width="40"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="single-skill-short">
+                                <p><strong>JUnit/Mockito</strong> 70% </p>
+                            </td>
+                            <td style="width: 160px; padding-left: 20px">
+                                <div class="skill" data-width="70"></div>
                             </td>
                         </tr>
                         <tr>
@@ -174,10 +182,10 @@
                         </tr>
                         <tr>
                             <td class="single-skill-short">
-                                <p><strong>VBA</strong> 88% </p>
+                                <p><strong>XML(JAXB, StAX, XPath)</strong> 85% </p>
                             </td>
                             <td style="width: 160px; padding-left: 20px">
-                                <div class="skill" data-width="88"></div>
+                                <div class="skill" data-width="85"></div>
                             </td>
                         </tr>
                     </table>
