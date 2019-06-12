@@ -91,7 +91,7 @@
         </li>
         <li>
             <div class="content">
-                <a href="http://www.elfak.ni.ac.rs/en"><img class="img-fluid mx-auto d-block mb-30" src="resources/img/elements/elnis.png" alt=""></a>
+                <a href="https://www.elfak.ni.ac.rs/sr/"><img class="img-fluid mx-auto d-block mb-30" src="resources/img/elements/elnis.png" alt=""></a>
                 <h4>
                     <time><spring:message code="app.qualification3"/></time>
                 </h4>
