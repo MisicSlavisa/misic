@@ -45,7 +45,7 @@
 	<link rel="stylesheet" href="resources/flowplayer/skin/skin.css">
 
 	<!-- for video tag based installs flowplayer depends on jQuery 1.7.2+ -->
-	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 	<!-- include flowplayer -->
 	<script src="resources/flowplayer/flowplayer.min.js"></script>
